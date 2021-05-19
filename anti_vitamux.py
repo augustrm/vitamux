@@ -1,6 +1,6 @@
 import os
 import wave
-cipher_audio=input("Wiggly air to turn back into a pre-juiced object?\n")
+cipher_audio=input("WAV file to decode?\n")
 password = input("Passphrase for decrypt?\n")
 audio = wave.open(cipher_audio, "rb")
 stegimage = audio.readframes(audio.getnframes())
