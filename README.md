@@ -1,6 +1,6 @@
 # vitamux
-steganographic tool for turning any file into sound
+steganographic tool for turning any file into sound (WAV file)
 
-Built for Linux on Ubuntu 18.04 LTS
+Built on Ubuntu 18.04 LTS, Runs on 
 
-Requires Python 3 and its wave package, as well as GPG
+Requires Python 3, Python's wave package, and GPG
