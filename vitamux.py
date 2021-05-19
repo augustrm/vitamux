@@ -1,6 +1,6 @@
 import os
 import wave
-name_in = input("File to cryptographically JUICE into some wiggly air?\n")
+name_in = input("File to convert to WAV?\n")
 password = input("Symmetric Encryption Key?\n")
 os.system("gpg --armor --symmetric --cipher-algo AES256 --batch --passphrase "+password+" "+name_in)
 ciphername = name_in+".asc"
